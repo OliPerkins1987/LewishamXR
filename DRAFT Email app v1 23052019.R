@@ -41,7 +41,7 @@ server <- function(input, output, session) {
                            body = "Body of the email",
                            smtp = list(host.name = "smtp.gmail.com", port = 587, 
                                        user.name = "olliereverserett@gmail.com",            
-                                       passwd = "reverseRett", tls = TRUE),
+                                       passwd = "*********", tls = TRUE),
                            authenticate = TRUE,
                            send = TRUE)
                  
